@@ -10,6 +10,10 @@ import kiva_logo from "./Assets/Kiva_logo.svg.png";
 import lonelyplanet_logo from "./Assets/lonely_planet.png";
 import google_logo from "./Assets/G__logo.svg.webp";
 import red_dot from "./Assets/red_dot.webp";
+import card from "./Assets/card.png";
+import card2 from "./Assets/card2.png";
+
+
 
 const Navbar = () => (
   <nav className="flex justify-between items-center mt-4 px-16 bg-white shadow-md">
@@ -62,7 +66,7 @@ const HeroSection = () => (
       </div>
     </div>
     <div className="md:w-1/2 flex justify-center mt-6 md:mt-0">
-      <img src="/images/hero-mockup.png" alt="Hero Mockup" className="max-w-full w-3/4" />
+      <img src={card} alt="Hero Mockup" className="max-w-full h-full" />
     </div>
   </header>
 );
@@ -83,7 +87,7 @@ const TrustedCompanies = () => (
 const FooterSection = () => (
   <header className="flex flex-col md:flex-row items-center justify-between px-20 py-4 bg-white">
     <div className="md:w-1/2 flex justify-center md:mt-0">
-    <img src="/images/hero-mockup.png" alt="Hero Mockup" className="max-w-full w-3/4" />
+    <img src={card2} alt="Hero Mockup" className="max-w-full w-3/4" />
     </div>
     <div className="text-left md:w-1/2">
       <h1 className="text-2xl font-bold text-gray-900">Now is your moment to build a<br/>better tomorrow</h1>
